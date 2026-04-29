@@ -1,6 +1,6 @@
 import { createServer } from "node:http";
 import type { AddressInfo } from "node:net";
-import { afterAll, describe, expect, it } from "vitest";
+import { describe, expect, it } from "vitest";
 import { io as ioClient } from "socket.io-client";
 import { createApp } from "./app.js";
 import { initIo } from "./realtime.js";
